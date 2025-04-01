@@ -1,4 +1,4 @@
-# Effi-Code: Unleashing Code Efficiency in Language Models
+# SwiftCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning
 
 ## Installation
 
