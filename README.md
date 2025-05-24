@@ -1,34 +1,34 @@
-# SwiftCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning
+# EffiCoder: Enhancing Code Generation in Large Language Models through Efficiency-Aware Fine-tuning
 
 ## Installation
 
 ```bash
-cd Effi-Code
+cd EffiCoder
 pip install -r requirements.txt
 cd LLaMA-Factory
 pip install -e ".[torch,metrics]"
 ```
 
-## Fine-tune LLMs with Effi-Code
+## Fine-tune LLMs with EffiCoder
 
-We have provided the Effi-Code dataset in Effi-Code/LLaMA-Factory/data/efficoder.json, so we can directly use SFT and other methods to finetune LLMs.
+We have provided the EffiCoder dataset in EffiCoder/LLaMA-Factory/data/efficoder.json, so we can directly use SFT and other methods to finetune LLMs.
 
 ```bash
-cd Effi-Code/LLaMA-Factory
+cd EffiCoder/LLaMA-Factory
 bash run.sh
 ```
 
 ## VLLM inference 
 
 ```bash
-cd Effi-Code/scripts
+cd EffiCoder/scripts
 bash run.sh
 ```
 
 ## Report Efficiency and pass@1 results
 
 ```bash
-cd Effi-Code/src
+cd EffiCoder/src
 python code_efficiency_calculator.py
 python calculate_memory_usage.py
 ```
